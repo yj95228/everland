@@ -2607,7 +2607,11 @@ const mapOptions = {
 var map = new naver.maps.Map('map', mapOptions);
 
 var infowindow = new naver.maps.InfoWindow({
-  content: ['<div class="iw_inner">', '<p>', '에러', '</p>', '</div>'].join(''),
+  borderWidth: 1,
+  borderColor: '#aaa',
+  backgroundColor: '#ffffff',
+  anchorSize: new naver.maps.Size(10, 10),
+  anchorColor: '#ffffff',
 });
 
 naver.maps.Event.once(map, 'init', function () {
@@ -2633,7 +2637,13 @@ naver.maps.Event.once(map, 'init', function () {
     propertyName = feature.getProperty('name');
 
     infowindow.setContent(
-      ['<div class="iw_inner">', '<p>', propertyName, '</p>', '</div>'].join('')
+      [
+        '<div style="padding:5px;height:15px;display:flex;align-items:center;">',
+        '<p>',
+        propertyName,
+        '</p>',
+        '</div>',
+      ].join('')
     );
     infowindow.open(map, e.coord);
     map.data.overrideStyle(feature, {
