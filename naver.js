@@ -1,28 +1,29 @@
 const polygonObj = {
-  poi: '',
-  american_adventure: '#1E90FF',
-  carribean: '#F08080',
-  european_adventure: '#EE82EE',
-  globalfare: '#6A5ACD',
-  magicland: '#EE82EE',
-  zootopia: '#BDB76B',
+  poi: "",
+  american_adventure: "#1E90FF",
+  carribean: "#F08080",
+  european_adventure: "#EE82EE",
+  globalfare: "#6A5ACD",
+  magicland: "#EE82EE",
+  zootopia: "#BDB76B",
+  speedway: "#733E7F",
 };
 
 function addColor(obj, polygonName) {
-  for (const i of obj['features']) {
-    i['geometry']['mantle_properties'] = {
+  for (const i of obj["features"]) {
+    i["geometry"]["mantle_properties"] = {
       strokeColor: polygonObj[polygonName],
       strokeOpacity: 0.7,
       strokeWeight: 3,
-      strokeStyle: 'solid',
-      strokeLineCap: 'butt',
-      strokeLineJoin: 'miter',
+      strokeStyle: "solid",
+      strokeLineCap: "butt",
+      strokeLineJoin: "miter",
       fillColor: polygonObj[polygonName],
       fillOpacity: 0.3,
       visible: true,
       clickable: true,
       zIndex: 0,
-      overlayType: 'Polygon',
+      overlayType: "Polygon",
     };
   }
   return obj;
@@ -38,17 +39,17 @@ const mapOptions = {
   },
 };
 
-var map = new naver.maps.Map('map', mapOptions);
+var map = new naver.maps.Map("map", mapOptions);
 
 var infowindow = new naver.maps.InfoWindow({
   borderWidth: 1,
-  borderColor: '#aaa',
-  backgroundColor: '#ffffff',
+  borderColor: "#aaa",
+  backgroundColor: "#ffffff",
   anchorSize: new naver.maps.Size(10, 10),
-  anchorColor: '#ffffff',
+  anchorColor: "#ffffff",
 });
 
-naver.maps.Event.once(map, 'init', function () {
+naver.maps.Event.once(map, "init", function () {
   map.data.setStyle(function (feature) {
     var mantle_properties =
       feature.geometryCollection[0].getRaw().mantle_properties;
@@ -65,18 +66,18 @@ naver.maps.Event.once(map, 'init', function () {
       .then((json) => map.data.addGeoJson(json, true));
   });
 
-  map.data.addListener('mouseover', function (e) {
+  map.data.addListener("mouseover", function (e) {
     var feature = e.feature;
-    propertyName = feature.getProperty('name');
+    propertyName = feature.getProperty("name");
 
     infowindow.setContent(
       [
         '<div style="padding:5px;height:15px;display:flex;align-items:center;">',
-        '<p>',
+        "<p>",
         propertyName,
-        '</p>',
-        '</div>',
-      ].join('')
+        "</p>",
+        "</div>",
+      ].join("")
     );
     infowindow.open(map, e.coord);
     map.data.overrideStyle(feature, {
@@ -86,7 +87,7 @@ naver.maps.Event.once(map, 'init', function () {
     });
   });
 
-  map.data.addListener('mouseout', function (e) {
+  map.data.addListener("mouseout", function (e) {
     if (infowindow.getMap()) {
       infowindow.close();
     }
