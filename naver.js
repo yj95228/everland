@@ -1,18 +1,106 @@
-const polygonArray = [
+var polygonArray = [
+  'american_adventure',
+  'carribean',
+  'european_adventure',
+  'globalfare',
+  'magicland',
   'poi',
   'zootopia',
-  'globalfare',
-  'american_adventure',
-  'magicland',
-  'european_adventure',
-  'carribean',
 ];
 
-polygonArray.forEach((polygonName) => {
-  fetch(`json/${polygonName}.json`)
-    .then((res) => res.json())
-    .then((json) => map.data.addGeoJson(json, true));
-});
+var polygonColor = {
+  american_adventure: {
+    strokeColor: '#1E90FF',
+    strokeOpacity: 0.7,
+    strokeWeight: 3,
+    strokeStyle: 'solid',
+    strokeLineCap: 'butt',
+    strokeLineJoin: 'miter',
+    fillColor: '#1E90FF',
+    fillOpacity: 0.3,
+    visible: true,
+    clickable: true,
+    zIndex: 0,
+    overlayType: 'Polygon',
+  },
+  carribean: {
+    strokeColor: '#F08080',
+    strokeOpacity: 0.7,
+    strokeWeight: 3,
+    strokeStyle: 'solid',
+    strokeLineCap: 'butt',
+    strokeLineJoin: 'miter',
+    fillColor: '#F08080',
+    fillOpacity: 0.3,
+    visible: true,
+    clickable: true,
+    zIndex: 0,
+    overlayType: 'Polygon',
+  },
+  european_adventure: {
+    strokeColor: '#EE82EE',
+    strokeOpacity: 0.7,
+    strokeWeight: 3,
+    strokeStyle: 'solid',
+    strokeLineCap: 'butt',
+    strokeLineJoin: 'miter',
+    fillColor: '#EE82EE',
+    fillOpacity: 0.3,
+    visible: true,
+    clickable: true,
+    zIndex: 0,
+    overlayType: 'Polygon',
+  },
+  globalfare: {
+    strokeColor: '#6A5ACD',
+    strokeOpacity: 0.7,
+    strokeWeight: 3,
+    strokeStyle: 'solid',
+    strokeLineCap: 'butt',
+    strokeLineJoin: 'miter',
+    fillColor: '#6A5ACD',
+    fillOpacity: 0.3,
+    visible: true,
+    clickable: true,
+    zIndex: 0,
+    overlayType: 'Polygon',
+  },
+  magicland: {
+    strokeColor: '#EE82EE',
+    strokeOpacity: 0.7,
+    strokeWeight: 3,
+    strokeStyle: 'solid',
+    strokeLineCap: 'butt',
+    strokeLineJoin: 'miter',
+    fillColor: '#EE82EE',
+    fillOpacity: 0.3,
+    visible: true,
+    clickable: true,
+    zIndex: 0,
+    overlayType: 'Polygon',
+  },
+  zootopia: {
+    strokeColor: '#BDB76B',
+    strokeOpacity: 0.7,
+    strokeWeight: 3,
+    strokeStyle: 'solid',
+    strokeLineCap: 'butt',
+    strokeLineJoin: 'miter',
+    fillColor: '#BDB76B',
+    fillOpacity: 0.3,
+    visible: true,
+    clickable: true,
+    zIndex: 0,
+    overlayType: 'Polygon',
+  },
+};
+
+function addColor(obj, polygonName) {
+  for (var i of obj['features']) {
+    i['geometry']['mantle_properties'] = polygonColor[polygonName];
+  }
+  return obj;
+}
 
 const mapOptions = {
   center: new naver.maps.LatLng(37.2935, 127.2034255),
@@ -44,7 +132,12 @@ naver.maps.Event.once(map, 'init', function () {
     return styleOptions;
   });
 
-  map.data.addGeoJson(poi, true);
+  polygonArray.forEach((polygonName) => {
+    fetch(`json/${polygonName}.json`)
+      .then((res_color) => res_color.json())
+      .then((res) => addColor(res, polygonName))
+      .then((json) => map.data.addGeoJson(json, true));
+  });
 
   map.data.addListener('mouseover', function (e) {
     var feature = e.feature;
