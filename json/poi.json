@@ -91,6 +91,20 @@
 { "type": "Feature", "properties": { "name": "판타스틱윙스" }, "geometry": { "type": "Point", "coordinates": [ 127.2053681, 37.2923183 ] } },
 { "type": "Feature", "properties": { "name": "타이거밸리" }, "geometry": { "type": "Point", "coordinates": [ 127.2049229, 37.2931953 ] } },
 { "type": "Feature", "properties": { "name": "휴먼스카이(상단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2030319, 37.2936583 ] } },
-{ "type": "Feature", "properties": { "name": "휴먼스카이(하단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2043596, 37.2930609 ] } }
+{ "type": "Feature", "properties": { "name": "휴먼스카이(하단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2043596, 37.2930609 ] } },
+{ "type": "Feature", "properties": { "name": "자켓대여소" }, "geometry": { "type": "Point", "coordinates": [ 127.2020355, 37.2960684 ] } },
+{ "type": "Feature", "properties": { "name": "튜브라이드" }, "geometry": { "type": "Point", "coordinates": [ 127.2000399, 37.2964824 ] } },
+{ "type": "Feature", "properties": { "name": "메가스톰" }, "geometry": { "type": "Point", "coordinates": [ 127.1994927, 37.2969902 ] } },
+{ "type": "Feature", "properties": { "name": "산후앙" }, "geometry": { "type": "Point", "coordinates": [ 127.1993345, 37.2979973 ] } },
+{ "type": "Feature", "properties": { "name": "타워래프트" }, "geometry": { "type": "Point", "coordinates": [ 127.1990421, 37.2983024 ] } },
+{ "type": "Feature", "properties": { "name": "타워부메랑고" }, "geometry": { "type": "Point", "coordinates": [ 127.1991414, 37.2985307 ] } },
+{ "type": "Feature", "properties": { "name": "와일드리버" }, "geometry": { "type": "Point", "coordinates": [ 127.2001921, 37.2990785 ] } },
+{ "type": "Feature", "properties": { "name": "와일드블라스터" }, "geometry": { "type": "Point", "coordinates": [ 127.2001975, 37.2993591 ] } },
+{ "type": "Feature", "properties": { "name": "아쿠아루프" }, "geometry": { "type": "Point", "coordinates": [ 127.2011611, 37.2989799 ] } },
+{ "type": "Feature", "properties": { "name": "실내유수풀" }, "geometry": { "type": "Point", "coordinates": [ 127.2013441, 37.2980747 ] } },
+{ "type": "Feature", "properties": { "name": "버거카페갤리언" }, "geometry": { "type": "Point", "coordinates": [ 127.201772, 37.298272 ] } },
+{ "type": "Feature", "properties": { "name": "피에스타" }, "geometry": { "type": "Point", "coordinates": [ 127.201772, 37.2972318 ] } },
+{ "type": "Feature", "properties": { "name": "버거카페캐리비안" }, "geometry": { "type": "Point", "coordinates": [ 127.2021408, 37.2967763 ] } },
+{ "type": "Feature", "properties": { "name": "라코스타" }, "geometry": { "type": "Point", "coordinates": [ 127.2021569, 37.2965619 ] } }
 ]
 }
