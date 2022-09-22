@@ -7,7 +7,7 @@ const polygonObj = {
   magicland: "#EE82EE",
   zootopia: "#BDB76B",
   speedway: "#733E7F",
-  cabin: "#733E7F",
+  cabin: "#9C4998",
 };
 
 function addColor(obj, polygonName) {
