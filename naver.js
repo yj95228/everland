@@ -2,7 +2,7 @@ const polygonObj = {
   poi: "",
   american_adventure: "#1E90FF",
   carribean: "#F08080",
-  european_adventure: "#EE82EE",
+  european_adventure: "#0A8D5E",
   globalfare: "#6A5ACD",
   magicland: "#EE82EE",
   zootopia: "#BDB76B",
