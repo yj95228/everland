@@ -1,459 +1,96 @@
 {
-  "type": "FeatureCollection",
-  "crs": {
-    "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
-  },
-  "features": [
-    {
-      "type": "Feature",
-      "properties": { "name": "매표소" },
-      "geometry": { "type": "Point", "coordinates": [127.2044153, 37.2950773] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "연간이용권서비스센터" },
-      "geometry": { "type": "Point", "coordinates": [127.2038198, 37.2954187] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "올리브영" },
-      "geometry": { "type": "Point", "coordinates": [127.2034229, 37.2950602] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스타벅스" },
-      "geometry": { "type": "Point", "coordinates": [127.2032646, 37.2948341] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "에잇세컨즈" },
-      "geometry": { "type": "Point", "coordinates": [127.2031922, 37.2945801] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "로지텍브랜드스토어" },
-      "geometry": { "type": "Point", "coordinates": [127.2037997, 37.29469] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "에버마트" },
-      "geometry": { "type": "Point", "coordinates": [127.204607, 37.2945225] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "그랜드엠포리엄" },
-      "geometry": { "type": "Point", "coordinates": [127.2035878, 37.294164] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "헬로터닝어드벤쳐" },
-      "geometry": { "type": "Point", "coordinates": [127.202877, 37.2943764] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "오리엔탈누들" },
-      "geometry": { "type": "Point", "coordinates": [127.203168, 37.2938856] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "키즈커버리" },
-      "geometry": { "type": "Point", "coordinates": [127.2024009, 37.2940456] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "MAGIC GIFT" },
-      "geometry": { "type": "Point", "coordinates": [127.2019785, 37.29394] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "LACIUN MEMORIUM" },
-      "geometry": { "type": "Point", "coordinates": [127.2040116, 37.2948437] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "VENEZIA PIZZA" },
-      "geometry": { "type": "Point", "coordinates": [127.2042222, 37.2945983] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "MAHARAJA MEMENCOS" },
-      "geometry": { "type": "Point", "coordinates": [127.2044542, 37.2946463] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "LOCKERS" },
-      "geometry": { "type": "Point", "coordinates": [127.2054774, 37.2942899] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "허리케인" },
-      "geometry": { "type": "Point", "coordinates": [127.2015983, 37.2939763] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "버거카페아메리카" },
-      "geometry": { "type": "Point", "coordinates": [127.2013676, 37.2936786] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "ROBOT VR" },
-      "geometry": { "type": "Point", "coordinates": [127.2012221, 37.2939768] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "롤링익스트레인" },
-      "geometry": { "type": "Point", "coordinates": [127.2012851, 37.2929782] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "렛츠트위스트" },
-      "geometry": { "type": "Point", "coordinates": [127.2008841, 37.2927056] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "더블락스핀" },
-      "geometry": { "type": "Point", "coordinates": [127.202008, 37.292928] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스타라이트드라이브인" },
-      "geometry": { "type": "Point", "coordinates": [127.2015567, 37.2926826] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "KFC" },
-      "geometry": { "type": "Point", "coordinates": [127.2013582, 37.2927051] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "판다월드" },
-      "geometry": { "type": "Point", "coordinates": [127.2028341, 37.2931035] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스카이크루즈(상단)" },
-      "geometry": { "type": "Point", "coordinates": [127.2024693, 37.2935218] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스카이크루즈(하단)" },
-      "geometry": { "type": "Point", "coordinates": [127.2002485, 37.2918894] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "챔피언쉽로데오" },
-      "geometry": { "type": "Point", "coordinates": [127.2008225, 37.2941619] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "콜럼버스대탐험" },
-      "geometry": { "type": "Point", "coordinates": [127.1993325, 37.2945369] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "게임어드벤쳐" },
-      "geometry": { "type": "Point", "coordinates": [127.1994183, 37.2944078] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "볼하우스" },
-      "geometry": { "type": "Point", "coordinates": [127.2001264, 37.2941656] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "플레이야드" },
-      "geometry": { "type": "Point", "coordinates": [127.1998991, 37.293988] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "레이싱코스터" },
-      "geometry": { "type": "Point", "coordinates": [127.2005093, 37.293797] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "플라잉레스큐" },
-      "geometry": { "type": "Point", "coordinates": [127.1996202, 37.2938461] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "타운즈마켓레스토랑" },
-      "geometry": { "type": "Point", "coordinates": [127.1994458, 37.2933447] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "하이드어웨이" },
-      "geometry": { "type": "Point", "coordinates": [127.2000225, 37.2933831] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "릴리댄스" },
-      "geometry": { "type": "Point", "coordinates": [127.2002572, 37.2935143] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "썬더폴스" },
-      "geometry": { "type": "Point", "coordinates": [127.1985312, 37.2936647] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "플래쉬팡팡" },
-      "geometry": { "type": "Point", "coordinates": [127.1989308, 37.2929211] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "피터팬" },
-      "geometry": { "type": "Point", "coordinates": [127.1989804, 37.2926618] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "게임피아" },
-      "geometry": { "type": "Point", "coordinates": [127.1986197, 37.2927461] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "매직쿠키하우스" },
-      "geometry": { "type": "Point", "coordinates": [127.1987431, 37.2924463] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "매직스윙" },
-      "geometry": { "type": "Point", "coordinates": [127.198782, 37.2921711] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "멀린스스낵" },
-      "geometry": { "type": "Point", "coordinates": [127.1990006, 37.2920302] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스카이댄싱" },
-      "geometry": { "type": "Point", "coordinates": [127.1993492, 37.2920132] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "범퍼카" },
-      "geometry": { "type": "Point", "coordinates": [127.1995678, 37.2923247] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "붕붕카" },
-      "geometry": { "type": "Point", "coordinates": [127.1996041, 37.2925445] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "나는코끼리" },
-      "geometry": { "type": "Point", "coordinates": [127.1993278, 37.2926085] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "피크닉에어리어" },
-      "geometry": { "type": "Point", "coordinates": [127.1989348, 37.2918382] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "로얄쥬빌리캐로셀" },
-      "geometry": { "type": "Point", "coordinates": [127.1996054, 37.2917229] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "앤티앤스" },
-      "geometry": { "type": "Point", "coordinates": [127.1999353, 37.291596] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "페스티벌트레인" },
-      "geometry": { "type": "Point", "coordinates": [127.1998401, 37.2915074] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "포메인" },
-      "geometry": { "type": "Point", "coordinates": [127.2005106, 37.2915181] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "포시즌스가든" },
-      "geometry": { "type": "Point", "coordinates": [127.2001606, 37.290958] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "쿠치나마리오" },
-      "geometry": { "type": "Point", "coordinates": [127.1993345, 37.2907168] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "홀랜드빌리지" },
-      "geometry": { "type": "Point", "coordinates": [127.2000077, 37.2902879] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "자동차왕국" },
-      "geometry": { "type": "Point", "coordinates": [127.2005174, 37.2923791] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "레니의안전체험" },
-      "geometry": { "type": "Point", "coordinates": [127.2008312, 37.2922746] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "글램핑힐" },
-      "geometry": { "type": "Point", "coordinates": [127.2008473, 37.2919523] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "시크릿쥬쥬비행기" },
-      "geometry": { "type": "Point", "coordinates": [127.2014347, 37.2922063] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "우주전투기" },
-      "geometry": { "type": "Point", "coordinates": [127.2011691, 37.2918115] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스푸키펀하우스" },
-      "geometry": { "type": "Point", "coordinates": [127.2015339, 37.291963] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "비룡열차" },
-      "geometry": { "type": "Point", "coordinates": [127.2016747, 37.2917101] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "그랜드스테이지" },
-      "geometry": { "type": "Point", "coordinates": [127.2012603, 37.2909356] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "버거카페유럽" },
-      "geometry": { "type": "Point", "coordinates": [127.2016975, 37.2910614] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "한가람" },
-      "geometry": { "type": "Point", "coordinates": [127.2011343, 37.2905429] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "커피빈" },
-      "geometry": { "type": "Point", "coordinates": [127.2007641, 37.2903978] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스페이스투어" },
-      "geometry": { "type": "Point", "coordinates": [127.2032948, 37.2915053] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "레니의마법학교" },
-      "geometry": { "type": "Point", "coordinates": [127.202989, 37.2915544] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "슈팅고스트" },
-      "geometry": { "type": "Point", "coordinates": [127.2026631, 37.2915736] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스카이웨이(상단)" },
-      "geometry": { "type": "Point", "coordinates": [127.2018477, 37.2927312] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스카이웨이(하단)" },
-      "geometry": { "type": "Point", "coordinates": [127.2024874, 37.2911703] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "T익스프레스" },
-      "geometry": { "type": "Point", "coordinates": [127.2023319, 37.2902762] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "스노우버스터" },
-      "geometry": { "type": "Point", "coordinates": [127.2045822, 37.2900222] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "매직타임레스토랑" },
-      "geometry": { "type": "Point", "coordinates": [127.2028629, 37.2906816] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "알프스쿠체" },
-      "geometry": { "type": "Point", "coordinates": [127.2038232, 37.2906411] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "CSI과학수사체험" },
-      "geometry": { "type": "Point", "coordinates": [127.204086, 37.2897278] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "호러메이즈" },
-      "geometry": { "type": "Point", "coordinates": [127.204365, 37.2897832] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "알파인레스토랑" },
-      "geometry": { "type": "Point", "coordinates": [127.2045715, 37.2908289] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "사파리월드" },
-      "geometry": { "type": "Point", "coordinates": [127.2047888, 37.2912215] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "아마존익스프레스" },
-      "geometry": { "type": "Point", "coordinates": [127.2049685, 37.2915202] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "로스트밸리" },
-      "geometry": { "type": "Point", "coordinates": [127.2067924, 37.2916589] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "뿌삐타운" },
-      "geometry": { "type": "Point", "coordinates": [127.204821, 37.2919897] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "카페정글캠프" },
-      "geometry": { "type": "Point", "coordinates": [127.2043274, 37.2918211] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "애니멀원더스테이지" },
-      "geometry": { "type": "Point", "coordinates": [127.2034772, 37.2921711] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "씨라이언스타디움" },
-      "geometry": { "type": "Point", "coordinates": [127.2049712, 37.2925359] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "판타스틱윙스" },
-      "geometry": { "type": "Point", "coordinates": [127.2053681, 37.2923183] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "타이거밸리" },
-      "geometry": { "type": "Point", "coordinates": [127.2049229, 37.2931953] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "휴먼스카이(상단)" },
-      "geometry": { "type": "Point", "coordinates": [127.2030319, 37.2936583] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "name": "휴먼스카이(하단)" },
-      "geometry": { "type": "Point", "coordinates": [127.2043596, 37.2930609] }
-    }
-  ]
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "매표소" }, "geometry": { "type": "Point", "coordinates": [ 127.2044153, 37.2950773 ] } },
+{ "type": "Feature", "properties": { "name": "연간이용권서비스센터" }, "geometry": { "type": "Point", "coordinates": [ 127.2038198, 37.2954187 ] } },
+{ "type": "Feature", "properties": { "name": "올리브영" }, "geometry": { "type": "Point", "coordinates": [ 127.2034229, 37.2950602 ] } },
+{ "type": "Feature", "properties": { "name": "스타벅스" }, "geometry": { "type": "Point", "coordinates": [ 127.2032646, 37.2948341 ] } },
+{ "type": "Feature", "properties": { "name": "에잇세컨즈" }, "geometry": { "type": "Point", "coordinates": [ 127.2031922, 37.2945801 ] } },
+{ "type": "Feature", "properties": { "name": "로지텍브랜드스토어" }, "geometry": { "type": "Point", "coordinates": [ 127.2037997, 37.29469 ] } },
+{ "type": "Feature", "properties": { "name": "에버마트" }, "geometry": { "type": "Point", "coordinates": [ 127.204607, 37.2945225 ] } },
+{ "type": "Feature", "properties": { "name": "그랜드엠포리엄" }, "geometry": { "type": "Point", "coordinates": [ 127.2035878, 37.294164 ] } },
+{ "type": "Feature", "properties": { "name": "헬로터닝어드벤쳐" }, "geometry": { "type": "Point", "coordinates": [ 127.202877, 37.2943764 ] } },
+{ "type": "Feature", "properties": { "name": "오리엔탈누들" }, "geometry": { "type": "Point", "coordinates": [ 127.203168, 37.2938856 ] } },
+{ "type": "Feature", "properties": { "name": "키즈커버리" }, "geometry": { "type": "Point", "coordinates": [ 127.2024009, 37.2940456 ] } },
+{ "type": "Feature", "properties": { "name": "MAGIC GIFT" }, "geometry": { "type": "Point", "coordinates": [ 127.2019785, 37.29394 ] } },
+{ "type": "Feature", "properties": { "name": "LACIUN MEMORIUM" }, "geometry": { "type": "Point", "coordinates": [ 127.2040116, 37.2948437 ] } },
+{ "type": "Feature", "properties": { "name": "VENEZIA PIZZA" }, "geometry": { "type": "Point", "coordinates": [ 127.2042222, 37.2945983 ] } },
+{ "type": "Feature", "properties": { "name": "MAHARAJA MEMENCOS" }, "geometry": { "type": "Point", "coordinates": [ 127.2044542, 37.2946463 ] } },
+{ "type": "Feature", "properties": { "name": "LOCKERS" }, "geometry": { "type": "Point", "coordinates": [ 127.2054774, 37.2942899 ] } },
+{ "type": "Feature", "properties": { "name": "허리케인" }, "geometry": { "type": "Point", "coordinates": [ 127.2015983, 37.2939763 ] } },
+{ "type": "Feature", "properties": { "name": "버거카페아메리카" }, "geometry": { "type": "Point", "coordinates": [ 127.2013676, 37.2936786 ] } },
+{ "type": "Feature", "properties": { "name": "ROBOT VR" }, "geometry": { "type": "Point", "coordinates": [ 127.2012221, 37.2939768 ] } },
+{ "type": "Feature", "properties": { "name": "롤링익스트레인" }, "geometry": { "type": "Point", "coordinates": [ 127.2012851, 37.2929782 ] } },
+{ "type": "Feature", "properties": { "name": "렛츠트위스트" }, "geometry": { "type": "Point", "coordinates": [ 127.2008841, 37.2927056 ] } },
+{ "type": "Feature", "properties": { "name": "더블락스핀" }, "geometry": { "type": "Point", "coordinates": [ 127.202008, 37.292928 ] } },
+{ "type": "Feature", "properties": { "name": "스타라이트드라이브인" }, "geometry": { "type": "Point", "coordinates": [ 127.2015567, 37.2926826 ] } },
+{ "type": "Feature", "properties": { "name": "KFC" }, "geometry": { "type": "Point", "coordinates": [ 127.2013582, 37.2927051 ] } },
+{ "type": "Feature", "properties": { "name": "판다월드" }, "geometry": { "type": "Point", "coordinates": [ 127.2028341, 37.2931035 ] } },
+{ "type": "Feature", "properties": { "name": "스카이크루즈(상단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2024693, 37.2935218 ] } },
+{ "type": "Feature", "properties": { "name": "스카이크루즈(하단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2002485, 37.2918894 ] } },
+{ "type": "Feature", "properties": { "name": "챔피언쉽로데오" }, "geometry": { "type": "Point", "coordinates": [ 127.2008225, 37.2941619 ] } },
+{ "type": "Feature", "properties": { "name": "콜럼버스대탐험" }, "geometry": { "type": "Point", "coordinates": [ 127.1993325, 37.2945369 ] } },
+{ "type": "Feature", "properties": { "name": "게임어드벤쳐" }, "geometry": { "type": "Point", "coordinates": [ 127.1994183, 37.2944078 ] } },
+{ "type": "Feature", "properties": { "name": "볼하우스" }, "geometry": { "type": "Point", "coordinates": [ 127.2001264, 37.2941656 ] } },
+{ "type": "Feature", "properties": { "name": "플레이야드" }, "geometry": { "type": "Point", "coordinates": [ 127.1998991, 37.293988 ] } },
+{ "type": "Feature", "properties": { "name": "레이싱코스터" }, "geometry": { "type": "Point", "coordinates": [ 127.2005093, 37.293797 ] } },
+{ "type": "Feature", "properties": { "name": "플라잉레스큐" }, "geometry": { "type": "Point", "coordinates": [ 127.1996202, 37.2938461 ] } },
+{ "type": "Feature", "properties": { "name": "타운즈마켓레스토랑" }, "geometry": { "type": "Point", "coordinates": [ 127.1994458, 37.2933447 ] } },
+{ "type": "Feature", "properties": { "name": "하이드어웨이" }, "geometry": { "type": "Point", "coordinates": [ 127.2000225, 37.2933831 ] } },
+{ "type": "Feature", "properties": { "name": "릴리댄스" }, "geometry": { "type": "Point", "coordinates": [ 127.2002572, 37.2935143 ] } },
+{ "type": "Feature", "properties": { "name": "썬더폴스" }, "geometry": { "type": "Point", "coordinates": [ 127.1985312, 37.2936647 ] } },
+{ "type": "Feature", "properties": { "name": "플래쉬팡팡" }, "geometry": { "type": "Point", "coordinates": [ 127.1989308, 37.2929211 ] } },
+{ "type": "Feature", "properties": { "name": "피터팬" }, "geometry": { "type": "Point", "coordinates": [ 127.1989804, 37.2926618 ] } },
+{ "type": "Feature", "properties": { "name": "게임피아" }, "geometry": { "type": "Point", "coordinates": [ 127.1986197, 37.2927461 ] } },
+{ "type": "Feature", "properties": { "name": "매직쿠키하우스" }, "geometry": { "type": "Point", "coordinates": [ 127.1987431, 37.2924463 ] } },
+{ "type": "Feature", "properties": { "name": "매직스윙" }, "geometry": { "type": "Point", "coordinates": [ 127.198782, 37.2921711 ] } },
+{ "type": "Feature", "properties": { "name": "멀린스스낵" }, "geometry": { "type": "Point", "coordinates": [ 127.1990006, 37.2920302 ] } },
+{ "type": "Feature", "properties": { "name": "스카이댄싱" }, "geometry": { "type": "Point", "coordinates": [ 127.1993492, 37.2920132 ] } },
+{ "type": "Feature", "properties": { "name": "범퍼카" }, "geometry": { "type": "Point", "coordinates": [ 127.1995678, 37.2923247 ] } },
+{ "type": "Feature", "properties": { "name": "붕붕카" }, "geometry": { "type": "Point", "coordinates": [ 127.1996041, 37.2925445 ] } },
+{ "type": "Feature", "properties": { "name": "나는코끼리" }, "geometry": { "type": "Point", "coordinates": [ 127.1993278, 37.2926085 ] } },
+{ "type": "Feature", "properties": { "name": "피크닉에어리어" }, "geometry": { "type": "Point", "coordinates": [ 127.1989348, 37.2918382 ] } },
+{ "type": "Feature", "properties": { "name": "로얄쥬빌리캐로셀" }, "geometry": { "type": "Point", "coordinates": [ 127.1996054, 37.2917229 ] } },
+{ "type": "Feature", "properties": { "name": "앤티앤스" }, "geometry": { "type": "Point", "coordinates": [ 127.1999353, 37.291596 ] } },
+{ "type": "Feature", "properties": { "name": "페스티벌트레인" }, "geometry": { "type": "Point", "coordinates": [ 127.1998401, 37.2915074 ] } },
+{ "type": "Feature", "properties": { "name": "포메인" }, "geometry": { "type": "Point", "coordinates": [ 127.2005106, 37.2915181 ] } },
+{ "type": "Feature", "properties": { "name": "포시즌스가든" }, "geometry": { "type": "Point", "coordinates": [ 127.2001606, 37.290958 ] } },
+{ "type": "Feature", "properties": { "name": "쿠치나마리오" }, "geometry": { "type": "Point", "coordinates": [ 127.1993345, 37.2907168 ] } },
+{ "type": "Feature", "properties": { "name": "홀랜드빌리지" }, "geometry": { "type": "Point", "coordinates": [ 127.2000077, 37.2902879 ] } },
+{ "type": "Feature", "properties": { "name": "자동차왕국" }, "geometry": { "type": "Point", "coordinates": [ 127.2005174, 37.2923791 ] } },
+{ "type": "Feature", "properties": { "name": "레니의안전체험" }, "geometry": { "type": "Point", "coordinates": [ 127.2008312, 37.2922746 ] } },
+{ "type": "Feature", "properties": { "name": "글램핑힐" }, "geometry": { "type": "Point", "coordinates": [ 127.2008473, 37.2919523 ] } },
+{ "type": "Feature", "properties": { "name": "시크릿쥬쥬비행기" }, "geometry": { "type": "Point", "coordinates": [ 127.2014347, 37.2922063 ] } },
+{ "type": "Feature", "properties": { "name": "우주전투기" }, "geometry": { "type": "Point", "coordinates": [ 127.2011691, 37.2918115 ] } },
+{ "type": "Feature", "properties": { "name": "스푸키펀하우스" }, "geometry": { "type": "Point", "coordinates": [ 127.2015339, 37.291963 ] } },
+{ "type": "Feature", "properties": { "name": "비룡열차" }, "geometry": { "type": "Point", "coordinates": [ 127.2016747, 37.2917101 ] } },
+{ "type": "Feature", "properties": { "name": "그랜드스테이지" }, "geometry": { "type": "Point", "coordinates": [ 127.2012603, 37.2909356 ] } },
+{ "type": "Feature", "properties": { "name": "버거카페유럽" }, "geometry": { "type": "Point", "coordinates": [ 127.2016975, 37.2910614 ] } },
+{ "type": "Feature", "properties": { "name": "한가람" }, "geometry": { "type": "Point", "coordinates": [ 127.2011343, 37.2905429 ] } },
+{ "type": "Feature", "properties": { "name": "커피빈" }, "geometry": { "type": "Point", "coordinates": [ 127.2007641, 37.2903978 ] } },
+{ "type": "Feature", "properties": { "name": "스페이스투어" }, "geometry": { "type": "Point", "coordinates": [ 127.2032948, 37.2915053 ] } },
+{ "type": "Feature", "properties": { "name": "레니의마법학교" }, "geometry": { "type": "Point", "coordinates": [ 127.202989, 37.2915544 ] } },
+{ "type": "Feature", "properties": { "name": "슈팅고스트" }, "geometry": { "type": "Point", "coordinates": [ 127.2026631, 37.2915736 ] } },
+{ "type": "Feature", "properties": { "name": "스카이웨이(상단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2018477, 37.2927312 ] } },
+{ "type": "Feature", "properties": { "name": "스카이웨이(하단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2024874, 37.2911703 ] } },
+{ "type": "Feature", "properties": { "name": "T익스프레스" }, "geometry": { "type": "Point", "coordinates": [ 127.2023319, 37.2902762 ] } },
+{ "type": "Feature", "properties": { "name": "스노우버스터" }, "geometry": { "type": "Point", "coordinates": [ 127.2045822, 37.2900222 ] } },
+{ "type": "Feature", "properties": { "name": "매직타임레스토랑" }, "geometry": { "type": "Point", "coordinates": [ 127.2028629, 37.2906816 ] } },
+{ "type": "Feature", "properties": { "name": "알프스쿠체" }, "geometry": { "type": "Point", "coordinates": [ 127.2038232, 37.2906411 ] } },
+{ "type": "Feature", "properties": { "name": "CSI과학수사체험" }, "geometry": { "type": "Point", "coordinates": [ 127.204086, 37.2897278 ] } },
+{ "type": "Feature", "properties": { "name": "호러메이즈" }, "geometry": { "type": "Point", "coordinates": [ 127.204365, 37.2897832 ] } },
+{ "type": "Feature", "properties": { "name": "알파인레스토랑" }, "geometry": { "type": "Point", "coordinates": [ 127.2045715, 37.2908289 ] } },
+{ "type": "Feature", "properties": { "name": "사파리월드" }, "geometry": { "type": "Point", "coordinates": [ 127.2047888, 37.2912215 ] } },
+{ "type": "Feature", "properties": { "name": "아마존익스프레스" }, "geometry": { "type": "Point", "coordinates": [ 127.2049685, 37.2915202 ] } },
+{ "type": "Feature", "properties": { "name": "로스트밸리" }, "geometry": { "type": "Point", "coordinates": [ 127.2067924, 37.2916589 ] } },
+{ "type": "Feature", "properties": { "name": "뿌삐타운" }, "geometry": { "type": "Point", "coordinates": [ 127.204821, 37.2919897 ] } },
+{ "type": "Feature", "properties": { "name": "카페정글캠프" }, "geometry": { "type": "Point", "coordinates": [ 127.2043274, 37.2918211 ] } },
+{ "type": "Feature", "properties": { "name": "애니멀원더스테이지" }, "geometry": { "type": "Point", "coordinates": [ 127.2034772, 37.2921711 ] } },
+{ "type": "Feature", "properties": { "name": "씨라이언스타디움" }, "geometry": { "type": "Point", "coordinates": [ 127.2049712, 37.2925359 ] } },
+{ "type": "Feature", "properties": { "name": "판타스틱윙스" }, "geometry": { "type": "Point", "coordinates": [ 127.2053681, 37.2923183 ] } },
+{ "type": "Feature", "properties": { "name": "타이거밸리" }, "geometry": { "type": "Point", "coordinates": [ 127.2049229, 37.2931953 ] } },
+{ "type": "Feature", "properties": { "name": "휴먼스카이(상단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2030319, 37.2936583 ] } },
+{ "type": "Feature", "properties": { "name": "휴먼스카이(하단)" }, "geometry": { "type": "Point", "coordinates": [ 127.2043596, 37.2930609 ] } }
+]
 }
