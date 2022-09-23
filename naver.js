@@ -32,7 +32,7 @@ function addColor(obj, polygonName) {
 
 const mapOptions = {
   center: new naver.maps.LatLng(37.2935, 127.2034255),
-  zoom: 16,
+  zoom: 18,
   zoomControl: true,
   zoomControlOptions: {
     style: naver.maps.ZoomControlStyle.SMALL,
