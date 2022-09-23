@@ -67,6 +67,37 @@ naver.maps.Event.once(map, "init", function () {
       .then((json) => map.data.addGeoJson(json, true));
   });
 
+  map.data.addListener("click", function (e) {
+    var feature = e.feature;
+
+    if (feature.getProperty("focus") !== true) {
+      feature.setProperty("focus", true);
+      propertyName = feature.getProperty("name");
+
+      infowindow.setContent(
+        [
+          '<div style="padding:5px;height:15px;display:flex;align-items:center;">',
+          "<p>",
+          propertyName,
+          "</p>",
+          "</div>",
+        ].join("")
+      );
+      infowindow.open(map, e.coord);
+      map.data.overrideStyle(feature, {
+        fillOpacity: 0.7,
+        strokeWeight: 3,
+        strokeOpacity: 0.7,
+      });
+    } else {
+      feature.setProperty("focus", false);
+      if (infowindow.getMap()) {
+        infowindow.close();
+      }
+      map.data.revertStyle();
+    }
+  });
+
   map.data.addListener("mouseover", function (e) {
     var feature = e.feature;
     propertyName = feature.getProperty("name");

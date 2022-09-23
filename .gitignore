@@ -225,3 +225,5 @@ cython_debug/
 
 *.py
 *.csv
+templates/
+static/
